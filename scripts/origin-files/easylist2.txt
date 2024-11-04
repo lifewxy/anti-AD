@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202311301734
+! Version: 202409260732
 ! Title: CJX's Annoyance List
-! Last modified: 2023/11/30 17:34 +0800
+! Last modified: 2024/09/26 07:32 +0800
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/cjx82630/cjxlist
 !
@@ -11,6 +11,7 @@
 ! Email (cjxlist@gmail.com)
 !--------------------------General blocking filters---------------------------!
 /wiseatom/banner/pack_
+/bbs/include/javascript/adblock.
 /template/bingfeng/statics/js/pingbi.js
 -bobo_recommend_
 /3dmgamegzh.png
@@ -55,6 +56,7 @@
 ###bgframe[style^="position: fixed;"]
 ##.wwads_abp
 !-----------------------------Union&third-party-------------------------------!
+||fundingchoicesmessages.google.com^$third-party
 ||7moor.com^$third-party
 ||2005net.net^$third-party
 ||3jia5.com^$third-party
@@ -485,13 +487,26 @@
 ||letvcdn.com/lc02_live/201803/18/23/40/1521387641261new.
 ||tencent.com/developer/api/common/getAds
 ||tencent.com/developer/api/common/getOneAds
+||10086.cn/together/s?func=together:getAdvertInfos&
+||bttt11.com/ad.
+||fanyi.baidu.com/pc/config
+||fanyi.baidu.com/ait/config/cms/list?
+||3dmgame.com/static/image/common/pc_tg3dm.
+||fc.3dmgame.com^
 !------------------------Specific element hiding rules------------------------!
+haokan.baidu.com##.page-top-rightinfo-popover
+baidu.com##.invoke-app-san-container
+baidu.com##.invoke-app-floating-tips
+bilibili.com##.is-rcmd > div:only-child
+thwiki.cc###a-carousel
+baidu.com##.index-module_drawerHand__aRhcO
+bilibili.com##.extension-tips
+77mh.nl###bdtopbot
+77mh.nl###bdbottop
 youdao.com##.banner
 cnki.net##.banner-main
 caiyunapp.com##.active-imgContainer
 baidu.com##.player-pause-code
-123pan.com##.ant-carousel
-123pan.com##.banner-container-pc
 baidu.com##.landrightbanner
 51cto.com##.right-fixadv
 51cto.com###advCanvas
@@ -549,9 +564,6 @@ alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 autohome.com.cn##.activity-coin-layer
 php.cn##.wwads-cn
-thwiki.cc##.on-right > .swiper-container
-waipian5.com##.shortcuts-mobile-overlay
-waipian5.com##.popup
 autohome.com.cn##.activity-app-layer
 autohome.com.cn##DIV[id^="popautoapp"]
 shengxinwang.net###floatDivBoxs
@@ -1559,6 +1571,7 @@ m.babytree.com##script + a[class]
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 !--------------------------------Tracking Systems-----------------------------!
+||tongjiniao.com^$third-party
 .com/js/o.js$domain=qdmm.com|qdwenxue.com|qidian.com
 ||3158.cn^*_analyser.
 /analytics.js$domain=qunar.com
