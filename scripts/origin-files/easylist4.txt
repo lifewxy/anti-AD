@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607312027
+! Version: 202608012002
 ! Title: EasyPrivacy
-! Last modified: 31 Jul 2026 20:27 UTC
+! Last modified: 01 Aug 2026 20:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0c058cc58e353ce0445da70ffc84fb86fb4b6152
+! Commit: fe33699d2e044df4f857fe5307ffc524776cc0b9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7215,6 +7215,7 @@ omni.soundestlink.com$image
 ||dinnerquartz.com^
 ||direfuldesk.com^
 ||disagreeabledrop.com^
+||discjockeys.net^
 ||discopond.com^
 ||discreetfield.com^
 ||discreetquarter.com^
@@ -7266,6 +7267,7 @@ omni.soundestlink.com$image
 ||effervescentvista.com^
 ||effulgentnook.com^
 ||effulgenttempest.com^
+||eggrecipe.com^
 ||eightgreens.com^
 ||eighthlayer.net^
 ||elasticchange.com^
@@ -15058,6 +15060,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
+||chartkidmatt.com/nectar_analytics
+||chartkidmatt.com/page_view
 ||chase.com/apps/services/clientBeacon.html
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
@@ -15067,6 +15071,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chloro.trip.com^
 ||choosefi.com/api/site/track
 ||choosefi.com/block-event
+||choosefi.com/conversion-event
 ||chronicle.medal.tv^
 ||cidrap.umn.edu/core/modules/statistics
 ||cisco.com/c/dam/cdc/j/at.js

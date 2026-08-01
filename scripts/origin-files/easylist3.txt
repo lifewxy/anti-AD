@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607312000
+! Version: 202608012002
 ! Title: Fanboy's Annoyance List
-! Last modified: 31 Jul 2026 20:00 UTC
+! Last modified: 01 Aug 2026 20:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 87c12c9fb45ef7d23cdbed83cf7171460261efb7
+! Commit: fe33699d2e044df4f857fe5307ffc524776cc0b9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -39312,6 +39312,7 @@ bstage.in##.CookieConfirm_container__7A6dW
 tsi.com##.CookieConsent > .o-container
 tunemymusic.com##.CookieConsent-module-scss-module__piaogq__CookieAlert
 nyctourism.com##.CookieConsentBanner_cookieContent__ueLwu
+newsroom.wealthsimple.com##.CookieConsentBar_cookieConsentBar__A10YA
 rebrandly.com##.CookieConsent__container
 talkie-ai.com##.CookieConsent_banner__f_zHl
 elitesingles.com##.CookieConsent_cookie-consent__nuLuI
